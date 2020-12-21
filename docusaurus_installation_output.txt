@@ -1,0 +1,23 @@
+Installing dependencies with: yarn
+yarn install v1.22.5
+info No lockfile found.
+[1/4] Resolving packages...
+warning @docusaurus/core > core-js@2.6.12: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+warning @docusaurus/core > webpack-dev-server > chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning @docusaurus/core > chokidar > fsevents@2.1.3: Please update to v 2.2.x
+warning @docusaurus/core > webpack-dev-server > chokidar > fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+warning @docusaurus/core > webpack > watchpack > watchpack-chokidar2 > chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+warning @docusaurus/core > webpack-dev-server > chokidar > braces > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+warning @docusaurus/core > webpack-dev-server > chokidar > braces > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning @docusaurus/preset-classic > @docusaurus/plugin-debug > react-json-view > flux > fbjs > core-js@1.2.7: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "@docusaurus/preset-classic > @docusaurus/theme-search-algolia > @docsearch/react@3.0.0-alpha.32" has unmet peer dependency "@types/react@>= 16.8.0 < 18.0.0".
+warning "@docusaurus/preset-classic > @docusaurus/theme-search-algolia > @docsearch/react > @algolia/autocomplete-preset-algolia@1.0.0-alpha.38" has unmet peer dependency "@algolia/client-search@^4.5.1".
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 18.63s.
